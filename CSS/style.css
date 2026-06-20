@@ -53,16 +53,40 @@ nav ul{
     cursor: pointer;
 }
 .contendor-principal {
-    padding-top: 100px;
+    position: relative;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 80hv;
+    overflow: hidden;
+}
+.contenedor-principal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/IMG-FONDO.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    z-index: -1;
 }
 .hero {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     gap: 40px;
     max-width: 1000px;
     padding: 20px;
+}
+.hero-text h1{
+    color: #111827;
 }
 .avatar {
     width: 480px;
