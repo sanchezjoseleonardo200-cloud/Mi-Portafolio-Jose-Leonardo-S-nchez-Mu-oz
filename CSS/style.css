@@ -10,12 +10,12 @@ header{
     left: 0;
     width: 100%;
     height: 75px;
-    background-color: #1e1e1e;
+    background-color: #b3b197;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4%;
-    box-shadow:  0 4px 12px rgba(0,0,0, 0.15);
+    box-shadow:  0 4px 10px rgba(0,0,0, 0.15);
     z-index: 1000;
 
 }
@@ -63,4 +63,35 @@ nav ul{
     gap: 40px;
     max-width: 1000px;
     padding: 20px;
+}
+.avatar {
+    width: 480px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #25eb6e;
+}
+.hero texto h1 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+.hero-texto p {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.btn-contacto {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+.btn-contacto:hover {
+    background-color: #1d4ed8;
 }
