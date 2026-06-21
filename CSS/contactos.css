@@ -1,0 +1,119 @@
+/* ===================================================
+   ESTILOS GENERALES DE LA PÁGINA
+   =================================================== */
+.contacto-container {
+    max-width: 800px; /* Más angosto para que el formulario no se estire demasiado */
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    color: #333333;
+    text-align: center;
+}
+
+.titulo-contacto {
+    font-size: 32px;
+    color: #007bff; /* Mantenemos el azul de identidad */
+    margin-bottom: 10px;
+}
+
+.subtitulo-contacto {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+/* ===================================================
+   CAJA DEL FORMULARIO (Centrada y Estilizada)
+   =================================================== */
+.contacto-formulario-caja {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left; /* El texto de los campos se alinea a la izquierda */
+    max-width: 550px;
+    margin: 0 auto 40px auto; /* Centra la caja y le da margen abajo */
+    box-sizing: border-box;
+}
+
+/* Grupos de campos (Separación vertical) */
+.campo-grupo {
+    margin-bottom: 20px;
+}
+
+.campo-grupo label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #495057;
+}
+
+/* Estilos para Inputs y Textarea */
+.campo-grupo input,
+.campo-grupo textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: border-color 0.3s ease; /* Transición suave para el foco */
+}
+
+/* Efecto cuando el usuario hace clic para escribir (:focus) */
+.campo-grupo input:focus,
+.campo-grupo textarea:focus {
+    border-color: #007bff; /* El borde se vuelve azul */
+    outline: none; /* Quita el borde por defecto del navegador */
+}
+
+/* Estilo del Botón de Enviar */
+.boton-enviar {
+    display: block;
+    width: 100%; /* Ocupa todo el ancho del formulario */
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: #0056b3; /* Se oscurece al pasar el cursor */
+}
+
+/* ===================================================
+   SECCIÓN DE REDES SOCIALES
+   =================================================== */
+.contacto-redes {
+    margin-top: 30px;
+}
+
+.contacto-redes p {
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.enlaces-redes-caja {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.enlace-red {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.enlace-red:hover {
+    text-decoration: underline; /* Se subraya al pasar el cursor */
+}

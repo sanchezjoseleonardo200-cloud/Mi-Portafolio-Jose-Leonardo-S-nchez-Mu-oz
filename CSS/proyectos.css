@@ -1,0 +1,132 @@
+
+.proyectos-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    color: #333333;
+    text-align: center; 
+}
+
+.titulo-proyectos {
+    font-size: 32px;
+    color: #007bff; 
+    margin-bottom: 10px;
+}
+
+.subtitulo-proyectos {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+
+.proyectos-galeria {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px;
+    width: 100%;
+}
+
+
+.tarjeta-proyecto {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 30%; 
+    min-width: 280px; 
+    overflow: hidden; 
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.tarjeta-proyecto:hover {
+    border-color: #007bff;
+}
+
+
+.proyecto-imagen-caja {
+    width: 100%;
+    height: 180px;
+    background-color: #eaeaea; 
+    overflow: hidden;
+}
+
+.proyecto-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+.proyecto-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.proyecto-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.proyecto-info p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    min-height: 65px;
+}
+
+
+.tecnologias-tags {
+    margin-top: auto; 
+    padding-top: 10px;
+}
+
+.tecnologias-tags span {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+
+.contenedor-boton-global {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.boton-git-global {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #24292e; 
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #24292e;
+    transition: background-color 0.3s ease; 
+}
+
+.boton-git-global:hover {
+    background-color: transparent;
+    border-color: #007bff;
+    text-decoration: none;
+    background-color: #007bff;
+    transform: scale(1.05);
+}
