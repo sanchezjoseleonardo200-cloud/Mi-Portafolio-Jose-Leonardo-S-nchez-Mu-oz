@@ -1,8 +1,6 @@
-/* ===================================================
-   ESTILOS GENERALES DE LA PÁGINA
-   =================================================== */
+
 .contacto-container {
-    max-width: 800px; /* Más angosto para que el formulario no se estire demasiado */
+    max-width: 800px; 
     margin: 0 auto;
     padding: 40px 20px;
     font-family: sans-serif;
@@ -12,7 +10,7 @@
 
 .titulo-contacto {
     font-size: 32px;
-    color: #007bff; /* Mantenemos el azul de identidad */
+    color: #007bff; 
     margin-bottom: 10px;
 }
 
@@ -22,21 +20,19 @@
     margin-bottom: 40px;
 }
 
-/* ===================================================
-   CAJA DEL FORMULARIO (Centrada y Estilizada)
-   =================================================== */
+
 .contacto-formulario-caja {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 10px;
     padding: 30px;
-    text-align: left; /* El texto de los campos se alinea a la izquierda */
+    text-align: left; 
     max-width: 550px;
-    margin: 0 auto 40px auto; /* Centra la caja y le da margen abajo */
+    margin: 0 auto 40px auto; 
     box-sizing: border-box;
 }
 
-/* Grupos de campos (Separación vertical) */
+
 .campo-grupo {
     margin-bottom: 20px;
 }
@@ -49,7 +45,7 @@
     color: #495057;
 }
 
-/* Estilos para Inputs y Textarea */
+
 .campo-grupo input,
 .campo-grupo textarea {
     width: 100%;
@@ -59,20 +55,20 @@
     border-radius: 6px;
     box-sizing: border-box;
     font-family: sans-serif;
-    transition: border-color 0.3s ease; /* Transición suave para el foco */
+    transition: border-color 0.3s ease; 
 }
 
-/* Efecto cuando el usuario hace clic para escribir (:focus) */
+
 .campo-grupo input:focus,
 .campo-grupo textarea:focus {
-    border-color: #007bff; /* El borde se vuelve azul */
-    outline: none; /* Quita el borde por defecto del navegador */
+    border-color: #007bff; 
+    outline: none; 
 }
 
-/* Estilo del Botón de Enviar */
+
 .boton-enviar {
     display: block;
-    width: 100%; /* Ocupa todo el ancho del formulario */
+    width: 100%; 
     padding: 12px;
     background-color: #007bff;
     color: white;
@@ -85,12 +81,10 @@
 }
 
 .boton-enviar:hover {
-    background-color: #0056b3; /* Se oscurece al pasar el cursor */
+    background-color: #0056b3; 
 }
 
-/* ===================================================
-   SECCIÓN DE REDES SOCIALES
-   =================================================== */
+
 .contacto-redes {
     margin-top: 30px;
 }
@@ -115,5 +109,5 @@
 }
 
 .enlace-red:hover {
-    text-decoration: underline; /* Se subraya al pasar el cursor */
+    text-decoration: underline;
 }
