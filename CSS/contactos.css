@@ -59,7 +59,11 @@ nav ul li a {
     padding: 30px;
     text-align: left; 
     max-width: 550px;
+<<<<<<< HEAD
     margin: 0 auto 40px auto;
+=======
+    margin: 0 auto 40px auto; 
+>>>>>>> 9494e38e1ba46c1d8fc72dd2382bec35142a3862
     box-sizing: border-box;
 }
 
@@ -93,7 +97,11 @@ nav ul li a {
 .campo-grupo input:focus,
 .campo-grupo textarea:focus {
     border-color: #007bff; 
+<<<<<<< HEAD
     outline: none;
+=======
+    outline: none; 
+>>>>>>> 9494e38e1ba46c1d8fc72dd2382bec35142a3862
 }
 
 
@@ -141,4 +149,8 @@ nav ul li a {
 
 .enlace-red:hover {
     text-decoration: underline;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9494e38e1ba46c1d8fc72dd2382bec35142a3862
